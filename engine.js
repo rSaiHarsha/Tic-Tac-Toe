@@ -83,6 +83,8 @@ function checkWinner(){
         }
     }
 
+
+
     // checking for diagnol 
     let diagnol_arr = new Array(3);
     let reverse_diagnol_arr = new Array(3);
@@ -112,6 +114,21 @@ function checkWinner(){
        }
    }
 
+       // checks for Ties
+       var boxesFilled = 0; 
+       for(var i = 0;i<3;i++){
+           for(var j = 0 ; j< 3;j++) {
+               if(currentState[i][j] !== "0"){
+                   boxesFilled++;
+               }
+           }
+       } 
+   
+       if(boxesFilled=== 9){
+           alert("Tie, No one wins"); 
+       }
+       boxesFilled = 0;
+   
    cols_of_board = []; 
    diagnol_arr = [];
    reverse_diagnol_arr = [];
