@@ -1,0 +1,57 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: lightblue;
+    color: black;
+    font-size: large;
+}
+
+h1{
+    text-align: center;
+    font-family: Anton;
+}
+h1:hover{
+    color: rgb(17, 82, 172);
+}
+div {
+    font-size: 8rem;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.board {
+    margin: 0 25%;
+    height:100%;
+    width:40rem;
+    border-radius: 10%;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+   
+}
+
+
+.square {
+    background-color: whitesmoke;
+    height: 10rem;
+    width : 10rem;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 10%;
+    box-shadow: 3px 3px rgb(114, 114, 114) ;
+}
+
+.square:hover{
+    border: 3px solid black;
+    box-shadow: none;
+    height: 9.7rem;
+    width: 9.7rem;
+}
+
+.square-pressed{
+    opacity: 0.5;
+    box-shadow: none;
+}
+
