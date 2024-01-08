@@ -15,5 +15,6 @@ This version currently supports only 2 players and alerts the winner.
 google-chrome index.html
 ```
 ### Screen Shots
-![image](https://github.com/rSaiHarsha/Tic-Tac-Toe/assets/134918367/5a7b85a8-f0be-4ed6-9a58-1df2386b3c53)
+![image](https://github.com/rSaiHarsha/Tic-Tac-Toe/assets/134918367/322a9b8a-9749-43c9-956c-8574f7cca08e)
+
 
