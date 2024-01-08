@@ -83,8 +83,6 @@ function checkWinner(){
         }
     }
 
-
-
     // checking for diagnol 
     let diagnol_arr = new Array(3);
     let reverse_diagnol_arr = new Array(3);
