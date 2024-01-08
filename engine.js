@@ -126,6 +126,7 @@ function checkWinner(){
    
        if(boxesFilled=== 9){
            alert("Tie, No one wins"); 
+           clearBoard();
        }
        boxesFilled = 0;
    
